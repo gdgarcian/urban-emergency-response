@@ -97,4 +97,4 @@ wheels/
 *.zip
 *.tar.gz
 data/
-datasets/
+datasets/.DS_Store
