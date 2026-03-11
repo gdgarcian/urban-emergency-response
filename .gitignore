@@ -46,3 +46,55 @@ wp-config.php
 # Note: If you wish to whitelist themes,
 # uncomment the next line
 #/wp-content/themes"*.csv"  
+ 
+"# Virtual Environment" 
+"venv/" 
+"__pycache__/" 
+"*.pyc" 
+
+
+# Virtual Environment
+venv/
+.env/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Datos grandes
+*.csv
+*.pkl
+*.h5
+*.zip
+*.tar.gz
+data/
+datasets/
